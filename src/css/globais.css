@@ -7,7 +7,7 @@ html {
     font-weight: 300;
     scroll-behavior: smooth;
   }
-  
+
   body {
     background-color: var(--cor-fundo-cinza-escuro);
     font-family: var(--fonte-primaria);
@@ -15,19 +15,19 @@ html {
   }
 
   .container {
-    max-width: 1140px;
+    max-width: 1256px;
     margin: auto;
   }
-  
+
   .row {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .justify-content-between {
     justify-content: space-between;
   }
-  
+
   .alinhar-itens-no-centro {
     align-items: center;
   }
@@ -43,19 +43,19 @@ html {
     border-radius: 50%;
     transition: all 0.3s ease;
   }
-  
+
   .redes-sociais a i {
     line-height: 40px;
   }
-  
+
   .redes-sociais a:hover {
     color: var(--cor-primaria);
   }
-  
+
   .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
   }
-  
+
   .inner-shadow {
     box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
   }
@@ -63,20 +63,20 @@ html {
   .section{
     padding: 7rem 0 7rem;
   }
-  
+
   .section-title {
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 60px 0;
   }
-  
+
   .section-title h2 {
     font-size: var(--fonte-gigante);
     font-weight: 500;
     text-transform: uppercase;
   }
-  
+
   .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;
@@ -84,7 +84,7 @@ html {
     transition: all .3s ease;
     background-color: var(--cor-primaria);
   }
-  
+
   .botao:hover {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
